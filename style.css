@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.block {
+  padding: 50px;
+}
+
+/*== Стили модального окна ===*/
+.modal-img-desc {
+  max-width: 200px;
+  padding: 10px;
+  position: absolute;
+  pointer-events: auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
